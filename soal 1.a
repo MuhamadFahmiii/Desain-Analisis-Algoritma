@@ -13,3 +13,8 @@ def cari_kpk(a, b):
         maks += 1
     
     return kpk
+
+a = 3
+b = 4
+kpk = cari_kpk(a, b)
+print("KPK dari", a, "dan", b, "yaitu", kpk)
