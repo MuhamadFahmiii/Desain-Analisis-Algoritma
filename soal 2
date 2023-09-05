@@ -1,0 +1,15 @@
+def menukar(x, y):
+    piring = [x, y, ""]
+    
+    for i in range(len(piring)):
+        piring[2] = piring[0]
+        piring[0] = piring[1]
+        piring[1] = piring[2]
+        piring[2] = ""
+    
+    print(piring)
+
+# Contoh pemanggilan fungsi
+x = "piring A"
+y = "piring B"
+menukar(x, y)
