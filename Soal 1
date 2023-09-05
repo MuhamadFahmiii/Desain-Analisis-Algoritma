@@ -4,7 +4,7 @@ def cari_kpk(a, b):
         maks = a
     else:
         maks = b
-    
+     
     # loop untuk mencari kelipatan terkecil dari maks
     while True:
         if maks % a == 0 and maks % b == 0:
